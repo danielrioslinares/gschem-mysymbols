@@ -1,0 +1,58 @@
+v 20130925 2
+T 200 400 5 10 0 0 0 0 1
+device=COIL
+T 200 1000 5 10 0 0 0 0 1
+description=incuctor
+T 200 800 5 10 0 0 0 0 1
+numslots=0
+T 200 600 5 10 0 0 0 0 1
+symversion=0.1
+P 1000 500 850 500 1 0 0
+{
+T 900 550 5 8 0 1 0 0 1
+pinnumber=2
+T 900 550 5 8 0 0 0 0 1
+pinseq=2
+T 900 550 5 8 0 1 0 0 1
+pinlabel=2
+T 900 550 5 8 0 1 0 0 1
+pintype=pas
+}
+P 0 500 152 500 1 0 0
+{
+T 100 550 5 8 0 1 0 0 1
+pinnumber=1
+T 100 550 5 8 0 0 0 0 1
+pinseq=1
+T 100 550 5 8 0 1 0 0 1
+pinlabel=1
+T 100 550 5 8 0 1 0 0 1
+pintype=pas
+}
+T 500 900 8 14 1 1 0 3 1
+refdes=L?
+T 45 600 5 5 1 1 0 0 1
+pinnumber=1
+T 945 600 5 5 1 1 0 6 1
+pinnumber=2
+T 500 1100 8 8 1 1 0 3 1
+importance=CRITICAL/NOSTUFF/DEVEL
+T 500 800 8 6 1 1 0 3 1
+value=val?H
+T 200 150 8 6 1 1 0 3 1
+tolerance=tol?
+T 800 150 8 6 1 1 0 3 1
+curr rate=curr rate?
+T 200 50 8 6 1 1 0 3 1
+package=pkg?
+T 800 50 8 6 1 1 0 3 1
+type=type?
+A 300 500 100 0 180 3 0 0 0 -1 -1
+A 500 500 100 0 180 3 0 0 0 -1 -1
+A 700 500 100 0 180 3 0 0 0 -1 -1
+T 200 -50 8 6 1 1 0 3 1
+ESR=ESR?Ω
+L 200 650 800 650 3 0 0 0 -1 -1
+L 200 700 800 700 3 0 0 0 -1 -1
+L 150 500 200 500 3 0 0 0 -1 -1
+L 800 500 850 500 3 0 0 0 -1 -1

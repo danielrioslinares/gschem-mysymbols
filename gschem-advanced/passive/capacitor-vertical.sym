@@ -1,0 +1,51 @@
+v 20130925 2
+P 200 900 200 700 1 0 0
+{
+T 150 700 5 8 0 1 270 8 1
+pinseq=1
+T 200 645 9 8 0 1 90 6 1
+pinlabel=+
+T 200 650 5 8 0 1 270 2 1
+pintype=pas
+}
+P 200 0 200 200 1 0 0
+{
+T 150 200 5 8 0 1 270 2 1
+pinseq=2
+T 200 255 9 8 0 1 90 0 1
+pinlabel=-
+T 200 250 5 8 0 1 270 8 1
+pintype=pas
+}
+L 400 500 0 500 3 0 0 0 -1 -1
+L 200 200 200 400 3 0 0 0 -1 -1
+L 200 500 200 700 3 0 0 0 -1 -1
+T 200 700 5 10 0 0 0 0 1
+device=POLARIZED_CAPACITOR
+T 500 600 8 14 1 1 0 0 1
+refdes=C?
+T 200 1300 5 10 0 0 0 0 1
+description=polarized capacitor
+T 200 1100 5 10 0 0 0 0 1
+numslots=0
+T 200 900 5 10 0 0 0 0 1
+symversion=0.1
+T 500 500 8 6 1 1 0 0 1
+value=val?F
+T 500 800 8 8 1 1 0 0 1
+importance=CRITICAL/NOSTUFF/DEVEL
+T 500 400 8 6 1 1 0 0 1
+tolerance=tol?
+T 500 300 8 6 1 1 0 0 1
+volt rate=volt rate?
+T 500 100 8 6 1 1 0 0 1
+type=type?
+T 500 200 8 6 1 1 0 0 1
+package=pkg?
+L 400 400 0 400 3 0 0 0 -1 -1
+T 500 0 8 6 1 1 0 0 1
+ESR=ESR?Ω
+T 295 850 5 5 1 1 0 2 1
+pinnumber=1
+T 295 50 5 5 1 1 0 0 1
+pinnumber=2
